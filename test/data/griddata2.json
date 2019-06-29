@@ -1,0 +1,15 @@
+{
+	"total": 1,
+	"rows": [
+		{
+			"catid":"0",
+			"category":"热门",
+			"remark":"热门商品"
+		},
+		{
+			"catid":"1",
+			"category":"书籍",
+			"remark":"二手书籍及教材"
+		}
+	]
+}

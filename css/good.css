@@ -1,0 +1,85 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: #e3e4e5;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.header a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.left {
+    width: 50px;
+    height: 600px;
+    top: 150px;
+    left: 250px;
+    position: absolute;
+}
+.left div {
+    width: 500px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#collection,#against{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+}
+.left .gpicture {
+    width: 500px;
+    height:500px;
+    border: #eeeeee 2px solid;
+}
+.goodsInfo {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    padding-left: 20px;
+    /*background-color: whitesmoke;*/
+    font-size: 1.3rem;
+}
+.gname {
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.gprice {
+    height: 50px;
+}
+.gdetails {
+    height: 100px;
+}
+.address{
+    height: 50px;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.server {
+    height: 50px;
+    margin-top: 20px;
+}
+.shop-cart{
+    margin-top: 20px;
+    height: 100px;
+}
+.add-cart {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: red;
+}

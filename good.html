@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+    <script src="js/good.js"></script>
+    <script src="js/share.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/good.css">
+    <link rel="stylesheet" type="text/css" href="css/share.css">
+</head>
+<body>
+<div class="header">
+    用户名
+    <a href="">购物车</a>
+    <a href="">订单管理</a>
+    <a href="">我的地址</a>
+    <a href="">我的收藏</a>
+    <a href="index.html">返回主页</a>
+</div>
+<div class="left">
+    <img class="gpicture">
+    <div>
+        <img src="images/collection.png" id="collection"/>
+        <a href="javascript:void(0)" class="share"><img style="width: 40px; height: 40px; margin-left: 50px" src="images/share.png"/></a>
+<!--        下面的代码是分享按钮的功能-->
+        <script  type="text/javascript">
+            $('.share').shareConfig({
+                Shade : true, //是否显示遮罩层
+                Event:'click', //触发事件
+                Content : 'Share', //内容DIV ID
+                Title : '分享' //显示标题
+            });
+        </script>
+        <img src="images/against.png" id="against"/>
+    </div>
+</div>
+<div class="goodsInfo">
+    <div class="gname">商品名字</div>
+    <div class="gprice">商品价格</div>
+    <div class="gdetails">商品详情</div>
+<!--    分割线-->
+    <HR align=center width=100% color=#dfdfdf SIZE=2>
+    <div class="address">
+        配送至
+        <input type="text" value="默认地址">
+    </div>
+    <div class="server">增值服务</div>
+    <div class="shop-cart">
+        数量<button>+</button><input type="number"><button>-</button><br/>
+        <button class="add-cart">加入购物车</button>
+    </div>
+    <HR align=center width=100% color=#dfdfdf SIZE=2>
+    <ul>
+        <li>评价1</li>
+        <li>评价2</li>
+        <li>评价3</li>
+        <li>评价4</li>
+        <li>评价5</li>
+    </ul>
+</div>
+</body>
+</html>
+
